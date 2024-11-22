@@ -23,6 +23,7 @@ class MainWindow(QMainWindow):
         }
                       
         print(emprestimo)
+        print('oi')
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
