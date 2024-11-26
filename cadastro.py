@@ -2,7 +2,7 @@ import sys
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel
 
-ui_file = 'layouts/emprestimo.ui'
+ui_file = 'layouts/cadastro_livro.ui'
 
 class MainWindow(QMainWindow):
     def __init__(self):

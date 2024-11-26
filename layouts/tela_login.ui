@@ -17,11 +17,16 @@
    <widget class="QLabel" name="label_email">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>290</x>
       <y>160</y>
-      <width>31</width>
-      <height>16</height>
+      <width>61</width>
+      <height>20</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>E-mail</string>
@@ -30,11 +35,16 @@
    <widget class="QLabel" name="label_senha">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>290</x>
       <y>200</y>
-      <width>31</width>
-      <height>16</height>
+      <width>61</width>
+      <height>20</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Senha</string>
@@ -43,11 +53,16 @@
    <widget class="QPushButton" name="Button_login">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>470</x>
       <y>240</y>
-      <width>75</width>
-      <height>23</height>
+      <width>81</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Entrar</string>
@@ -58,9 +73,15 @@
      <rect>
       <x>360</x>
       <y>160</y>
-      <width>113</width>
-      <height>20</height>
+      <width>180</width>
+      <height>25</height>
      </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>180</width>
+      <height>25</height>
+     </size>
     </property>
    </widget>
    <widget class="QLineEdit" name="line_Senha">
@@ -68,9 +89,15 @@
      <rect>
       <x>360</x>
       <y>200</y>
-      <width>113</width>
-      <height>20</height>
+      <width>180</width>
+      <height>25</height>
      </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>180</width>
+      <height>25</height>
+     </size>
     </property>
    </widget>
    <widget class="QLabel" name="label_login">
@@ -85,11 +112,29 @@
     <property name="font">
      <font>
       <family>Segoe UI</family>
-      <pointsize>14</pointsize>
+      <pointsize>20</pointsize>
      </font>
     </property>
     <property name="text">
      <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonCadastrar">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>240</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Cadastrar-se</string>
     </property>
    </widget>
   </widget>

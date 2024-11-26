@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>866</width>
-    <height>708</height>
+    <width>734</width>
+    <height>612</height>
    </rect>
   </property>
   <property name="font">
@@ -20,37 +20,36 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="labelTituloCadUsuario">
+   <widget class="QLabel" name="labelCadastrarLivro">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>90</y>
-      <width>251</width>
-      <height>31</height>
+      <x>260</x>
+      <y>50</y>
+      <width>191</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Segoe UI</family>
       <pointsize>20</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>Cadastro do Usuário</string>
+     <string>Cadastrar Livro</string>
     </property>
    </widget>
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>152</x>
-      <y>160</y>
-      <width>401</width>
-      <height>321</height>
+      <x>250</x>
+      <y>140</y>
+      <width>203</width>
+      <height>312</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="VerticalCadUsuario">
+    <layout class="QVBoxLayout" name="verticalLayoutEmp">
      <item>
-      <widget class="QLabel" name="label_Ncompleto">
+      <widget class="QLabel" name="labelNameLivro">
        <property name="font">
         <font>
          <family>Segoe UI</family>
@@ -58,17 +57,20 @@
         </font>
        </property>
        <property name="text">
-        <string>Nome Completo</string>
+        <string>Nome do Livro</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineNcompleto">
+      <widget class="QLineEdit" name="lineEmprestimo">
        <property name="maximumSize">
         <size>
-         <width>400</width>
-         <height>35</height>
+         <width>300</width>
+         <height>30</height>
         </size>
+       </property>
+       <property name="text">
+        <string/>
        </property>
       </widget>
      </item>
@@ -86,19 +88,26 @@
       </spacer>
      </item>
      <item>
-      <widget class="QLabel" name="label_Email">
+      <widget class="QLabel" name="label_Genero">
        <property name="font">
         <font>
          <pointsize>14</pointsize>
         </font>
        </property>
        <property name="text">
-        <string>E-mail</string>
+        <string>Gênero</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEmail"/>
+      <widget class="QLineEdit" name="lineEdit_genero">
+       <property name="maximumSize">
+        <size>
+         <width>300</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
      </item>
      <item>
       <spacer name="verticalSpacer_2">
@@ -114,19 +123,26 @@
       </spacer>
      </item>
      <item>
-      <widget class="QLabel" name="label_Senha">
+      <widget class="QLabel" name="label_Isbn">
        <property name="font">
         <font>
          <pointsize>14</pointsize>
         </font>
        </property>
        <property name="text">
-        <string>Senha</string>
+        <string>ISBN</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineSenha"/>
+      <widget class="QLineEdit" name="lineEdit_isbn">
+       <property name="maximumSize">
+        <size>
+         <width>300</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
      </item>
      <item>
       <spacer name="verticalSpacer_3">
@@ -142,34 +158,43 @@
       </spacer>
      </item>
      <item>
-      <widget class="QLabel" name="label_cpf">
+      <widget class="QLabel" name="label_Status">
        <property name="font">
         <font>
+         <family>Segoe UI</family>
          <pointsize>14</pointsize>
         </font>
        </property>
        <property name="text">
-        <string>CPF</string>
+        <string>Status</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="linecpf"/>
+      <widget class="QLineEdit" name="lineEdit_status">
+       <property name="maximumSize">
+        <size>
+         <width>300</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
-   <widget class="QPushButton" name="btnCadastrar">
+   <widget class="QPushButton" name="BtnCadastrarLivro">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>510</y>
-      <width>141</width>
-      <height>51</height>
+      <x>300</x>
+      <y>470</y>
+      <width>101</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <family>Segoe UI</family>
+      <pointsize>14</pointsize>
      </font>
     </property>
     <property name="text">
@@ -182,7 +207,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>866</width>
+     <width>734</width>
      <height>21</height>
     </rect>
    </property>
