@@ -26,7 +26,8 @@ CREATE TABLE livro (
 CREATE TABLE emprestimo (
     id_emprestimo INT AUTO_INCREMENT PRIMARY KEY,  
     id_livro INT,                                 
-    id_usuario INT,                               
+    id_usuario INT,
+    devolucao BOOLEAN,                               
     FOREIGN KEY (id_livro) REFERENCES livro(id_livro),   
     FOREIGN KEY (id_usuario) REFERENCES usuario(id_usuario) 
 );

@@ -1,6 +1,7 @@
 import sys 
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel
+from biblioteca.controller.emprestimo_controller import ControllerEmprestimo
 
 ui_file = 'layouts/cadastro_livro.ui'
 
@@ -25,10 +26,11 @@ class MainWindow(QMainWindow):
         print(cadLivro)
 
 if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    window = MainWindow()
-    window.show()
-    sys.exit(app.exec())
+    # app = QApplication(sys.argv)
+    # window = MainWindow()
+    # window.show()
+    # sys.exit(app.exec())
+    ControllerEmprestimo.fazerEmprestimo(2, 2)
 
 
 
