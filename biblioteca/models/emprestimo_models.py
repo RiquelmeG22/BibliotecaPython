@@ -12,4 +12,8 @@ class Emprestimo:
     @staticmethod
     def fazerDevolucao():
         return 'update emprestimo set devolucao = true where id_emprestimo = %s'
+    
+    @staticmethod
+    def exibirLivro():
+        return 'select * from emprestimo;'
 
