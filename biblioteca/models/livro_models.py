@@ -26,19 +26,33 @@ class Livros():
         return 'INSERT INTO livro (titulo, autor, genero, status, codigo) VALUES(%s,%s,%s,%s,%s)'
 
     def excluirLivro(self):
-        return 'delete from livro where id_usuario = 1'
+        return 'delete from livro where id_livr = 1'
     
     def atualizarLivro(self):
         return 'uptade livro set email = %s, titulo = %s, autor = %s, isbn = %s, genero = %s where id_livro = %s'
     
-    def consultaLivro(self, titulo = None, autor = None, isbn = None, genero= None):
+    @staticmethod
+    def consultaLivro(self, id_livro= None, titulo=None, autor=None, genero=None, isbn=None):
+        query = "SELECT * FROM livro"
+        conditions = []
+
+        if id_livro:
+            conditions.append("id_livro = %s")
+         
         if titulo:
-            return 'select * from livro where titulo = (%s)'
-        elif autor:
-            return 'select * from livro where autor = (%s)'
-        elif isbn:
-            return 'select * from livro where autor = (%s)'
-        elif genero:
-            return 'select * from livro where genero = (%s)'
-        
+            conditions.append("titulo = %s")
     
+        if autor:
+            conditions.append("autor = %s")
+           
+        if genero:
+            conditions.append("genero = %s")
+           
+        if isbn:
+            conditions.append("isbn = %s")
+             
+        if conditions:
+            query += " WHERE " + " AND ".join(conditions)  
+     
+        return query
+

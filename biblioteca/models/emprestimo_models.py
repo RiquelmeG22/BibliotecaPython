@@ -16,4 +16,6 @@ class Emprestimo:
     @staticmethod
     def exibirLivro():
         return 'select * from emprestimo;'
+    
+    
 

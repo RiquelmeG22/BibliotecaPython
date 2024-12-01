@@ -5,7 +5,7 @@ class Usuario():
         self.senha = senha
         self.cpf = cpf
     
-    def castradarUsuario(self):
+    def cadastrarUsuario(self):
         return 'INSERT INTO usuario (nome_completo, email, senha, cpf) VALUES (%s,%s,%s,%s)'
 
     def excluirUsuario(self):
