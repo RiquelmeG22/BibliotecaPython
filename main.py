@@ -2,7 +2,7 @@ import sys
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel
 from biblioteca.controller.emprestimo_controller import ControllerEmprestimo
-from biblioteca.view
+
 
 ui_file = 'view/cadastro_livro.ui'
 
