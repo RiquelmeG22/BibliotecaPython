@@ -21,6 +21,8 @@ class ControllerUsuario:
 
         db.cursor.execute(Usuario.excluirUsuario())
 
+        
+
 
 
 
