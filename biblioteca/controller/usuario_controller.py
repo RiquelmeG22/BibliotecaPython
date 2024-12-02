@@ -15,5 +15,16 @@ class ControllerUsuario:
         db.desconectar()
 
 
+    @staticmethod
+    def excluirUsuario(id_usuario = None, nome_completo = None, email =  None, senha = None, cpf =  None):
+        db = DataBase()
+
+        db.cursor.execute(Usuario.excluirUsuario())
+
+
+
+
+
+
    
 
