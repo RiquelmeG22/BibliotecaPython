@@ -154,7 +154,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="linecpf"/>
+      <widget class="QLineEdit" name="lineCpf"/>
      </item>
     </layout>
    </widget>

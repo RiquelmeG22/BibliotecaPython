@@ -21,3 +21,6 @@ class MainWindow(QMainWindow):
             'senha': self.lineSenha.text(),
             'cpf': self.linecpf.text(),
         }
+
+
+    

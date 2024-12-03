@@ -37,58 +37,70 @@
      <string>Home</string>
     </property>
    </widget>
-   <widget class="QWidget" name="verticalLayoutWidget">
+   <widget class="QPushButton" name="btnListarUsuario">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>140</y>
-      <width>221</width>
-      <height>231</height>
+      <x>170</x>
+      <y>200</y>
+      <width>141</width>
+      <height>61</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="QComboBox" name="comboBox_2">
-       <property name="font">
-        <font>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <item>
-        <property name="text">
-         <string>Ação</string>
-        </property>
-       </item>
-      </widget>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox_3">
-       <item>
-        <property name="text">
-         <string>Suspense</string>
-        </property>
-       </item>
-      </widget>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox_4">
-       <item>
-        <property name="text">
-         <string>Terror</string>
-        </property>
-       </item>
-      </widget>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox">
-       <item>
-        <property name="text">
-         <string>Comedia</string>
-        </property>
-       </item>
-      </widget>
-     </item>
-    </layout>
+    <property name="text">
+     <string>Listar Usuario</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnRealizarEmprestimo">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>300</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Realizar Emprestimo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnLivro">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>200</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Listar Livro</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCadastrarLivro">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>300</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cadastrar Livro</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCadastrarUsuario">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>390</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cadastrar Usuario</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
