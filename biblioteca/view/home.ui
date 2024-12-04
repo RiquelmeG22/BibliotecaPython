@@ -19,7 +19,7 @@
      <pointsize>14</pointsize>
     </font>
    </property>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="labelTitulo">
     <property name="geometry">
      <rect>
       <x>320</x>
